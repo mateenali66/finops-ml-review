@@ -1,0 +1,24 @@
+finops_phase,capability,ml_category,technique,paper_count,representative_papers,reported_performance
+Inform,Cost Forecasting,Time Series,LSTM,8,"Ouhame2021, AlAsaly2022, Daud2025",R²>0.95
+Inform,Cost Forecasting,Time Series,TFT,4,"Lim2021, Bora2025",36-69% improvement
+Inform,Cost Forecasting,Time Series,DeepAR,3,"Salinas2020",Probabilistic forecasts
+Inform,Cost Forecasting,Ensemble,XGBoost,5,"Vadrevu2025, Khandelwal2024",98.74% R²
+Inform,Cost Forecasting,Traditional,ARIMA/Prophet,4,"Multiple",Competitive for short-term
+Inform,Anomaly Detection,Unsupervised,Isolation Forest,4,"Jain2024, Xin2023",94% F1-score
+Inform,Anomaly Detection,Deep Learning,Autoencoder/VAE,3,"Gao2020, Abdallah2024",91-95% precision
+Inform,Anomaly Detection,Ensemble,Random Forest,3,"Akoto2022",99.5% accuracy
+Inform,Cost Allocation,Classification,ML Tagging,3,"Multiple",Automated tagging
+Inform,Reporting,Visualization,ML-driven dashboards,2,"Multiple",N/A
+Optimize,Workload Optimization,DRL,DQN,6,"Xiao2022, Schuler2021",19-32% reduction
+Optimize,Workload Optimization,DRL,PPO,4,"Anuganti2024",40%+ monthly savings
+Optimize,Workload Optimization,Imitation Learning,CILP,1,"Tuli2023",44% cost reduction
+Optimize,Rate Optimization,Optimization,RI Planning,4,"Osypanka2022",18-25% savings
+Optimize,Rate Optimization,Survival Analysis,Spot Bidding,3,"Nawrocki2025",60-70% vs on-demand
+Optimize,LLM Cost,Cascade,FrugalGPT,1,"Chen2023",98% cost reduction
+Optimize,LLM Cost,Routing,RouteLLM,1,"Ong2024",2x+ cost reduction
+Optimize,LLM Cost,Compression,LLMLingua/TCRA,2,"Jiang2023, Liu2023",2-10x token reduction
+Operate,Automation,DRL,DQN/PPO/A2C,10,"Multiple",26-44% cost reduction
+Operate,Automation,LLM,FinOps Agents,4,"Vo2025, Deochake2024",78% recommendation accuracy
+Operate,Policy,Rule-based + ML,Guardrails,2,"Multiple",Compliance enforcement
+Cross-cutting,LLM Caching,Semantic,GPTCache/MeanCache,2,"Bang2023, Gill2025",Cache hit optimization
+Cross-cutting,AIOps,LLM,Log Analysis/RCA,3,"Zhang2024",Incident cost reduction
