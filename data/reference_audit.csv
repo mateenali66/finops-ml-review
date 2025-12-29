@@ -1,0 +1,27 @@
+citation_key,type,doi_or_url,status,issue,action_required
+# GREY LITERATURE (3 sources)
+FinOpsFoundation2025,techreport,https://www.finops.org/insights/state-of-finops-2025,VALID,URL accessible - authoritative source,None
+FinOpsFoundation2024,techreport,https://www.finops.org/insights/state-of-finops-2024,VALID,URL accessible - authoritative source,None
+Flexera2025,techreport,https://www.flexera.com/blog/cloud/cloud-computing-trends-flexera-2025-state-of-the-cloud-report,VALID,URL accessible - authoritative source,None
+Storment2023,book,ISBN 978-1492054627,VALID,O'Reilly book - authoritative,None
+Tyndall2010AACODS,article,https://dspace.flinders.edu.au/xmlui/handle/2328/3326,VALID,University repository - authoritative,None
+
+# SUSPICIOUS PLACEHOLDER DOIs (9 sources - CRITICAL)
+ECOLLM2024,article,arXiv:2405.12345,INVALID,Placeholder arXiv ID (12345),REMOVE or find real paper
+ChaosEater2025,article,arXiv:2501.98765,INVALID,Placeholder arXiv ID (98765),REMOVE or find real paper
+GenKubeSec2024,inproceedings,10.1109/CLOUD.2024.12345,INVALID,Placeholder DOI pattern,REMOVE or find real paper
+Paulo2025CloudProvisioning,article,10.1109/TCC.2025.3456789,INVALID,Placeholder DOI pattern,REMOVE or find real paper
+Vadrevu2025Storage,article,10.1109/ACCESS.2025.1234567,INVALID,Placeholder DOI pattern - DUPLICATE of Vadrevu2025StorageCost,REMOVE (duplicate)
+Xin2023Ensemble,article,10.1109/TCC.2023.1234567,INVALID,Placeholder DOI pattern,REMOVE or find real paper
+Abdallah2024Review,article,10.1145/3612345,INVALID,Placeholder DOI pattern - DUPLICATE of Abdallah2024CloudAnomaly,REMOVE (duplicate)
+Anuganti2024K8s,article,10.1109/TSC.2024.1234567,INVALID,Placeholder DOI pattern,REMOVE or find real paper
+Li2022SmartCMP,article,10.1109/MCC.2022.1234567,INVALID,Placeholder DOI pattern,REMOVE or find real paper
+Hu2024RouterBench,inproceedings,None,INVALID,No DOI provided,REMOVE or find real paper
+
+# VERIFIED ACADEMIC PAPERS (Selected key papers)
+Nawrocki2025Survey,article,10.1007/s10723-024-09792-0,VALID,Verified DOI,None
+Lim2021TFT,article,10.1016/j.ijforecast.2021.03.012,VALID,Verified DOI,None
+Chen2023FrugalGPT,article,arXiv:2305.05176,VALID,Real arXiv ID,None
+Ong2024RouteLLM,article,arXiv:2406.18665,VALID,Real arXiv ID,None
+Tuli2023CILP,article,10.1109/tnsm.2023.3268250,VALID,Verified DOI,None
+Page2021PRISMA,article,10.1136/bmj.n71,VALID,Verified DOI,None
