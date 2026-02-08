@@ -1,0 +1,81 @@
+ID,Citation_Key,First_Author,Year,Title,Venue,Source_Type,Quality,FinOps_Phase,RQ,DOI_or_URL
+1,Nawrocki2025Survey,Nawrocki P.,2025,A Survey of Cloud Resource Consumption Optimization Methods,Journal of Grid Computing (Springer),Academic,High,"Inform, Optimize, Operate",RQ1,10.1007/s10723-024-09792-0
+2,Nawrocki2024FinOps,Nawrocki P.,2024,FinOps-driven optimization of cloud resource usage for HPC using ML,Journal of Computational Science (Elsevier),Academic,High,"Inform, Optimize",RQ1,10.1016/j.jocs.2024.102292
+3,Deochake2024ABACUS,Deochake S.,2024,ABACUS: A FinOps Service for Cloud Cost Optimization,SSRN,Academic,Moderate,"Inform, Optimize, Operate","RQ1, RQ2",10.2139/ssrn.5071987
+4,Kanumuri2024CloudCostOptimization,Kanumuri S.,2024,Cloud Cost Optimization,Cloud FinOps (Apress),Academic,Moderate,"Inform, Optimize",RQ1,10.1007/979-8-8688-0388-8_6
+5,Osypanka2022ResourceCost,Osypanka P.,2022,Resource Usage Cost Optimization in Cloud Computing Using ML,IEEE Transactions on Cloud Computing,Academic,High,Optimize,RQ1,10.1109/tcc.2020.3015769
+6,Lim2021TFT,Lim B.,2021,Temporal Fusion Transformers for interpretable multi-horizon time series forecasting,International Journal of Forecasting (Elsevier),Academic,High,Inform,RQ1,10.1016/j.ijforecast.2021.03.012
+7,Salinas2020DeepAR,Salinas D.,2020,DeepAR: Probabilistic forecasting with autoregressive recurrent networks,International Journal of Forecasting (Elsevier),Academic,High,Inform,RQ1,10.1016/j.ijforecast.2019.07.001
+8,Bi2024Transformer,Bi J.,2024,Multivariate Resource Usage Prediction With Transformer,IEEE Internet of Things Journal,Academic,High,Inform,RQ1,10.1109/jiot.2024.3395610
+9,Chen2023FrugalGPT,Chen L.,2023,FrugalGPT: How to Use Large Language Models While Reducing Cost,arXiv (Stanford University),Academic,Moderate,Optimize,"RQ1, RQ2",arXiv:2305.05176
+10,Vo2025FinOpsAgent,Vo N.P.A.,2025,FinOps Agent: A Use-Case for IT Infrastructure and Cost Optimization,arXiv (IBM Research),Academic,Moderate,Operate,"RQ2, RQ4",arXiv:2510.25914
+11,Shekhar2024OptimizingLLMCosts,Shekhar S.,2024,Towards Optimizing the Costs of LLM Usage,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2402.01742
+12,Liu2023TCRA,Liu J.,2023,TCRA-LLM: Token Compression Retrieval Augmented LLM for Inference Cost Reduction,EMNLP 2023 Findings,Academic,High,Optimize,RQ2,10.18653/v1/2023.findings-emnlp.655
+13,Dasin2025LLMInfrastructure,Dasin S.,2025,Cost-Optimized AI Infrastructure: A Three-Layer Framework for LLM Deployment,SSRN,Academic,Moderate,Optimize,RQ2,10.2139/ssrn.5624150
+14,Kodi2025MultiCloudFinOps,Kodi D.,2025,Multi-Cloud FinOps: AI-Driven Cost Allocation and Optimization Strategies,ICCSAIML,Academic,Moderate,"Inform, Optimize",RQ1,10.56472/iccsaiml25-116
+15,Yakkanti2025AIEnabledFinOps,Yakkanti P.R.,2025,AI-Enabled FinOps for Cloud Cost Optimization,European Journal of Computer Science and IT,Academic,Moderate,"Inform, Operate","RQ1, RQ4",10.37745/ejcsit.2013/vol13n111729
+16,Schuler2021RLAIS,Schuler L.,2021,AI-based Resource Allocation: RL for Adaptive Auto-scaling in Serverless,IEEE/ACM CCGrid,Academic,High,Operate,RQ1,10.1109/ccgrid51090.2021.00098
+17,Chrysopoulos2023DRL,Chrysopoulos M.,2023,Deep Reinforcement Learning in Cloud Elasticity Through Offline Learning,IEEE CLOUD,Academic,High,Operate,RQ1,10.1109/cloud60044.2023.00012
+18,Buchaca2020Proactive,Buchaca D.,2020,Proactive Container Auto-scaling for Cloud Native ML Services,IEEE CLOUD,Academic,High,Operate,RQ1,10.1109/cloud49709.2020.00070
+19,Xiao2022DScaler,Xiao Z.,2022,DScaler: Horizontal Autoscaler of Microservice Based on Deep RL,APNOMS,Academic,High,Operate,"RQ1, RQ3",10.23919/apnoms56106.2022.9919994
+20,Jian2024DRS,Jian Z.,2024,DRS: A Deep Reinforcement Learning Enhanced Kubernetes Scheduler,Software: Practice and Experience (Wiley),Academic,High,Operate,RQ1,10.1002/spe.3284
+21,Lipari2025DynamicRL,Lipari A.,2025,Dynamic and Forecast-Based Containers Autoscaling for Kubernetes with RL,IEEE IPDPS Workshops,Academic,High,Operate,RQ1,10.1109/ipdpsw66978.2025.00169
+22,Xu2022esDNN,Xu M.,2022,esDNN: Deep Neural Network Based Multivariate Workload Prediction,ACM Transactions on Embedded Computing Systems,Academic,High,Inform,RQ1,10.1145/3524114
+23,Luo2022PowerPrediction,Luo S.,2022,The Power of Prediction: Microservice Auto Scaling via Workload Learning,ACM SoCC,Academic,High,"Inform, Operate",RQ1,10.1145/3542929.3563477
+24,Tuli2023CILP,Tuli S.,2023,CILP: Co-Simulation-Based Imitation Learner for Dynamic Resource Provisioning,IEEE Transactions on Network and Service Management,Academic,High,Operate,"RQ1, RQ3",10.1109/tnsm.2023.3268250
+25,Dogani2022KAGRUED,Dogani J.,2022,K-AGRUED: Container Autoscaling for Cloud-based Web Applications in Kubernetes,Journal of Grid Computing (Springer),Academic,High,Operate,RQ1,10.1007/s10723-022-09634-x
+26,Hang2024Robust,Hang H.,2024,Robust Auto-Scaling with Probabilistic Workload Forecasting for Cloud Databases,IEEE ICDE,Academic,High,"Inform, Operate",RQ1,10.1109/icde60146.2024.00308
+27,Jain2024AnomalyReview,Jain A.,2024,A Review on Leveraging ML for Anomaly Detection in Cloud Cost Management,IJSREM,Academic,Moderate,Inform,RQ1,10.55041/ijsrem35775
+28,Hossain2024EDoS,Hossain M.S.,2024,I-MPaFS: Enhancing EDoS Attack Detection in Cloud Computing,Journal of Cloud Computing (Springer),Academic,High,Inform,RQ1,10.1186/s13677-024-00699-5
+29,Mitropoulou2024KnowledgeGraph,Mitropoulou K.,2024,Anomaly Detection in Cloud Computing using Knowledge Graph Embedding and ML,Journal of Grid Computing (Springer),Academic,High,Inform,RQ1,10.1007/s10723-023-09727-1
+30,Islam2021IBMAnomaly,Islam M.S.,2021,Anomaly Detection in a Large-Scale Cloud Platform,IEEE/ACM ICSE-SEIP,Academic,High,Inform,"RQ1, RQ4",10.1109/ICSE-SEIP52600.2021.00024
+31,Nezamdoust2023SpotPrice,Nezamdoust S.S.,2023,Optimal Prediction of Cloud Spot Instance Price Utilizing Deep Learning,Journal of Supercomputing (Springer),Academic,High,Inform,RQ1,10.1007/s11227-022-04970-x
+32,Chin2023VMRightsizing,Chin K.,2023,Using VM Size Recommendation Algorithms to Reduce Cloud Cost,Journal of Student Research,Academic,Moderate,Optimize,RQ1,10.47611/jsrhs.v11i3.3362
+33,Alharthi2024AutoScalingSurvey,Alharthi S.,2024,Auto-Scaling Techniques in Cloud Computing: Issues and Research Directions,Sensors (MDPI),Academic,High,Operate,RQ1,10.3390/s24175551
+34,Bi2022Transformer,Bi J.,2022,A Transformer-Based Approach for Multivariate Cloud Workload Prediction,IEEE Transactions on Services Computing,Academic,High,Inform,RQ1,10.1109/TSC.2022.3178094
+35,Osypanka2022Cost,Osypanka P.,2022,Cloud resource cost optimization using machine learning,Journal of Supercomputing (Springer),Academic,High,Optimize,RQ1,10.1007/s11227-022-04498-y
+36,Ong2024RouteLLM,Ong I.,2024,RouteLLM: Learning to Route LLMs with Preference Data,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2406.18665
+37,Zhang2024AIOpsLLM,Zhang Y.,2024,A Survey on AIOps: Methods and Applications in the Era of Large Language Models,ACM Computing Surveys,Academic,High,Operate,RQ2,10.1145/3746635
+38,ECOLLM2024,Rao K.,2024,ECO-LLM: LLM-based Edge Cloud Optimization,ACM Conference Proceedings,Academic,High,Optimize,RQ2,10.1145/3660605.3660941
+39,ChaosTwin2021,Poltronieri F.,2021,ChaosTwin: Chaos Engineering and Digital Twin for Resilient IT Services,CNSM,Academic,High,Operate,RQ1,10.23919/CNSM52442.2021.9615519
+40,GenKubeSec2024,Malul E.,2024,GenKubeSec: LLM-based Kubernetes Misconfiguration Detection and Remediation,arXiv,Academic,Moderate,Operate,RQ2,arXiv:2405.19954
+41,IaCEval2024,Kon P.T.J.,2024,IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code,NeurIPS Datasets and Benchmarks Track,Academic,High,Operate,RQ2,NeurIPS 2024
+42,Ouhame2021CNNLSTM,Ouhame S.,2021,An Efficient Forecasting Approach for Resource Utilization Using CNN-LSTM,Neural Computing and Applications (Springer),Academic,High,Inform,RQ1,10.1007/s00521-021-05770-9
+43,Anuganti2024K8s,Anuganti C.,2024,AI-Driven Cloud Optimization: ML Approach to Kubernetes Autoscaling,CSEIT,Academic,Moderate,Operate,"RQ1, RQ3",10.32628/cseit24102152
+44,Hu2024RouterBench,Hu Q.J.,2024,RouterBench: A Benchmark for Multi-LLM Routing System,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2403.12031
+45,AlAsaly2022DeepLearning,Al-Asaly M.S.,2022,A deep learning-based resource usage prediction model for resource provisioning,Neural Computing and Applications (Springer),Academic,High,Inform,RQ1,10.1007/s00521-021-06665-5
+46,Ahamed2023CloudDL,Ahamed Z.,2023,Technical Study of Deep Learning in Cloud Computing for Workload Prediction,Electronics (MDPI),Academic,Moderate,Inform,RQ1,10.3390/electronics12030650
+47,Khandelwal2024SpotPrice,Khandelwal V.,2024,Amazon EC2 spot price prediction using LSTM time series prediction model,International Journal of Cloud Computing,Academic,Moderate,Inform,RQ1,10.1504/ijcc.2024.136289
+48,Bora2025TFTKubernetes,Bora K.,2025,Temporal Fusion Transformer Based Vertical Scaling Management for Kubernetes,IEEE CLOUD,Academic,High,"Inform, Operate",RQ1,10.1109/CLOUD67622.2025.00058
+49,Naganandhini2025TFTMultiCloud,Naganandhini S.,2025,Temporal fusion transformer-based strategy for efficient multi-cloud content replication,PeerJ Computer Science,Academic,High,Inform,RQ1,10.7717/peerj-cs.2713
+50,Wang2024Multiscale,Wang S.,2024,Multiscale Representation Enhanced Temporal Flow Fusion Model,ACM CIKM,Academic,High,Inform,RQ1,10.1145/3627673.3680072
+51,Lu2025STiFFNet,Lu Y.,2025,STiFF-Net: Spatial-Temporal Image-Driven Feature Fusion for Workload Prediction,IEEE Transactions on Cloud Computing,Academic,High,Inform,"RQ1, RQ3",10.1109/TCC.2025.3628344
+52,AbdelKhaleq2023RLAutoscaling,Abdel Khaleq A.,2023,Intelligent microservices autoscaling module using reinforcement learning,Cluster Computing (Springer),Academic,High,Operate,RQ1,10.1007/s10586-023-03999-8
+53,Mishra2024CloudRL,Mishra P.,2024,Optimizing Cloud Workloads: Autoscaling with Reinforcement Learning,IEEE CLOUD,Academic,High,Operate,RQ1,10.1109/cloud62652.2024.00033
+54,Zafeiropoulos2022ServerlessRL,Zafeiropoulos A.,2022,Reinforcement learning-assisted autoscaling for serverless computing,Simulation Modelling Practice and Theory (Elsevier),Academic,High,Operate,RQ1,10.1016/j.simpat.2021.102461
+55,Zhou2024DRLSurvey,Zhou G.,2024,Deep reinforcement learning-based methods for resource scheduling: a review,Artificial Intelligence Review (Springer),Academic,High,Operate,"RQ1, RQ4",10.1007/s10462-024-10756-9
+56,Rubak2023MLKubernetes,Rubak A.,2023,Machine Learning for Predictive Resource Scaling on Kubernetes Platforms,ACM UCC,Academic,High,Operate,RQ1,10.1145/3603166.3632165
+57,Mondal2023GRUKubernetes,Mondal S.K.,2023,Toward Optimal Load Prediction and Customizable Autoscaling for Kubernetes,Mathematics (MDPI),Academic,Moderate,"Inform, Operate","RQ1, RQ4",10.3390/math11122675
+58,Shim2023TransformerScaling,Shim S.,2023,Predictive Auto-scaler for Kubernetes Cloud,IEEE SysCon,Academic,Moderate,Operate,RQ1,10.1109/syscon53073.2023.10131106
+59,Akoto2022MultiCloud,Akoto J.,2022,Machine Learning vs Deep Learning for Anomaly Detection in Multi-cloud,IEEE Cloud Summit,Academic,High,Inform,RQ1,10.1109/cloudsummit54781.2022.00013
+60,Gao2020DataMining,Gao J.,2020,A Data Mining Method Using Deep Learning for Anomaly Detection in Cloud,Mathematical Problems in Engineering,Academic,Moderate,Inform,RQ1,10.1155/2020/6343705
+61,AlGhuwairi2023TimeSeries,Al-Ghuwairi A.-R.,2023,Intrusion Detection in Cloud Computing Based on Time Series Anomalies,Journal of Cloud Computing (Springer),Academic,High,Inform,RQ1,10.1186/s13677-023-00491-x
+62,Dinh2020EDoS,Dinh P.T.,2020,Dynamic EDoS Detection in SDN-based Cloud,IEEE FMEC,Academic,High,Inform,"RQ1, RQ4",10.1109/fmec49853.2020.9144972
+63,Ta2022EDoSAttention,Ta Q.V.,2022,EDoS Attack Detection by Attention on Flow-based in SDN,IEEE ICOIN,Academic,High,Inform,RQ1,10.1109/icoin53446.2022.9687229
+64,Sun2024Routoo,Mohammadshahi A.,2024,Routoo: Learning to Route to Large Language Models Effectively,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2401.13979
+65,Jiang2023LLMLingua,Jiang H.,2023,LLMLingua: Compressing Prompts for Accelerated Inference of LLMs,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2310.05736
+66,Bang2023GPTCache,Bang F.,2023,GPTCache: An Open-Source Semantic Cache for LLM Applications,ACL NLP-OSS,Academic,High,Optimize,RQ2,ACL 2023
+67,Gill2025MeanCache,Gill W.,2025,MeanCache: User-Centric Semantic Caching for LLM Web Services,IEEE IPDPS,Academic,High,Optimize,RQ2,10.1109/ipdps64566.2025.00117
+68,Zhou2024LLMInferenceSurvey,Zhou Z.,2024,A Survey on Efficient Inference for Large Language Models,arXiv,Academic,Moderate,Optimize,RQ2,arXiv:2404.14294
+69,Zhang2024LogAIOps,Zhang S.,2024,Large Language Models Empowered Online Log Anomaly Detection in AIOps,IEEE APSEC,Academic,High,Operate,RQ2,10.1109/apsec65559.2024.00051
+70,Zha2024AlertAggregation,Zha J.,2024,Leveraging Large Language Models for Efficient Alert Aggregation in AIOps,Electronics (MDPI),Academic,Moderate,Operate,RQ2,10.3390/electronics13224425
+71,Kurra2025AIFinOps,Kurra P.,2025,Role of AI in Cloud Cost Optimization and FinOps,World J. Adv. Eng. Tech. Sciences,Academic,Moderate,"Inform, Optimize","RQ1, RQ3",10.30574/wjaets.2025.15.1.0218
+72,Ayachit2025IntelligentFinOps,Ayachit J.V.,2025,Towards Intelligent FinOps: A Predictive Analytics Approach for Cloud Cost,IEEE ASIANCON,Academic,High,Inform,"RQ1, RQ3",10.1109/ASIANCON66527.2025.11280711
+73,Vadrevu2025StorageCost,Vadrevu N.R.T.,2025,Forecasting Cloud Storage Costs using Machine Learning on Usage Patterns,IEEE ICDICI,Academic,High,Inform,"RQ1, RQ3",10.1109/ICDICI66477.2025.11135182
+74,Abdallah2024CloudAnomaly,Abdallah A.,2024,Cloud Network Anomaly Detection Using Machine and Deep Learning Techniques,IEEE Access,Academic,High,Inform,RQ1,10.1109/ACCESS.2024.3390844
+75,Page2021PRISMA,Page M.J.,2021,The PRISMA 2020 statement: an updated guideline for reporting systematic reviews,BMJ,Academic,High,Methodology,Methodology,10.1136/bmj.n71
+G1,FinOpsFoundation2025,FinOps Foundation,2025,State of FinOps 2025,FinOps Foundation,Grey Literature,High (AACODS),"Inform, Operate",RQ4,https://www.finops.org/insights/state-of-finops-2025
+G2,FinOpsFoundation2024,FinOps Foundation,2024,State of FinOps 2024,FinOps Foundation,Grey Literature,High (AACODS),"Inform, Optimize, Operate","RQ3, RQ4",https://www.finops.org/insights/state-of-finops-2024
+G3,Flexera2025,Flexera,2025,State of the Cloud Report 2025,Flexera,Grey Literature,High (AACODS),Inform,"RQ3, RQ4",https://www.flexera.com/blog/cloud/cloud-computing-trends-flexera-2025-state-of-the-cloud-report
+G4,Storment2023,Storment J.R.,2023,"Cloud FinOps: Collaborative, Real-Time Cloud Financial Management (2nd ed.)",O'Reilly Media,Grey Literature,High (AACODS),"Inform, Optimize, Operate",RQ1,ISBN: 978-1492054627
+REF,Tyndall2010AACODS,Tyndall J.,2010,AACODS Checklist for Appraising Grey Literature,Flinders University,Reference Only,N/A,N/A,N/A,https://dspace.flinders.edu.au/xmlui/handle/2328/3326
