@@ -86,14 +86,14 @@ inform_techniques = [
     ('Allocation & Tagging', 8.8, 5),
 ]
 
-ax.text(4, 10.5, 'Cost Forecasting (18)', ha='center', fontsize=9, fontweight='bold', color=colors['inform_dark'])
+ax.text(4, 10.5, 'Cost Forecasting (21)', ha='center', fontsize=9, fontweight='bold', color=colors['inform_dark'])
 draw_technique_pill(3.2, 9.9, 'TFT', colors['inform_dark'])
 draw_technique_pill(4, 9.9, 'LSTM', colors['inform_dark'])
 draw_technique_pill(4.8, 9.9, 'DeepAR', colors['inform_dark'])
 draw_technique_pill(3.5, 9.4, 'XGBoost', colors['inform_dark'])
 draw_technique_pill(4.5, 9.4, 'Prophet', colors['inform_dark'])
 
-ax.text(4, 8.7, 'Anomaly Detection (10)', ha='center', fontsize=9, fontweight='bold', color=colors['inform_dark'])
+ax.text(4, 8.7, 'Anomaly Detection (12)', ha='center', fontsize=9, fontweight='bold', color=colors['inform_dark'])
 draw_technique_pill(3.3, 8.2, 'Isolation Forest', colors['inform_dark'])
 draw_technique_pill(4.7, 8.2, 'VAE', colors['inform_dark'])
 
@@ -102,11 +102,11 @@ draw_technique_pill(4.7, 8.2, 'VAE', colors['inform_dark'])
 # =============================================================================
 draw_phase_box(6.5, 8, 4, 3.5, 'OPTIMIZE', colors['optimize'], colors['optimize_dark'], [])
 
-ax.text(8.5, 10.5, 'Workload Optimization (14)', ha='center', fontsize=9, fontweight='bold', color=colors['optimize_dark'])
+ax.text(8.5, 10.5, 'Workload Optimization (17)', ha='center', fontsize=9, fontweight='bold', color=colors['optimize_dark'])
 draw_technique_pill(7.8, 9.9, 'Rightsizing', colors['optimize_dark'])
 draw_technique_pill(9.2, 9.9, 'Scheduling', colors['optimize_dark'])
 
-ax.text(8.5, 9.2, 'Rate Optimization (7)', ha='center', fontsize=9, fontweight='bold', color=colors['optimize_dark'])
+ax.text(8.5, 9.2, 'Rate Optimization (9)', ha='center', fontsize=9, fontweight='bold', color=colors['optimize_dark'])
 draw_technique_pill(7.6, 8.7, 'RI Planning', colors['optimize_dark'])
 draw_technique_pill(9.4, 8.7, 'Spot Bidding', colors['optimize_dark'])
 
@@ -117,18 +117,18 @@ ax.text(8.5, 8.2, 'Architecture (4)', ha='center', fontsize=9, fontweight='bold'
 # =============================================================================
 draw_phase_box(11, 8, 4, 3.5, 'OPERATE', colors['operate'], colors['operate_dark'], [])
 
-ax.text(13, 10.5, 'RL Automation (16)', ha='center', fontsize=9, fontweight='bold', color=colors['operate_dark'])
+ax.text(13, 10.5, 'RL Automation (15)', ha='center', fontsize=9, fontweight='bold', color=colors['operate_dark'])
 draw_technique_pill(12.2, 9.9, 'DQN', colors['operate_dark'])
 draw_technique_pill(13, 9.9, 'PPO', colors['operate_dark'])
 draw_technique_pill(13.8, 9.9, 'A2C', colors['operate_dark'])
 
-ax.text(13, 9.0, 'Policy & Governance (4)', ha='center', fontsize=9, fontweight='bold', color=colors['operate_dark'])
+ax.text(13, 9.0, 'Policy & Governance (5)', ha='center', fontsize=9, fontweight='bold', color=colors['operate_dark'])
 draw_technique_pill(13, 8.5, 'Guardrails', colors['operate_dark'])
 
 # =============================================================================
 # LLM/GenAI Layer (Spanning all phases)
 # =============================================================================
-draw_phase_box(2, 4, 13, 3, 'LLM / GENERATIVE AI (15 papers)', colors['llm'], colors['llm_dark'], [])
+draw_phase_box(2, 4, 13, 3, 'LLM / GENERATIVE AI (17 papers)', colors['llm'], colors['llm_dark'], [])
 
 llm_categories = [
     ('Inference Cost\nOptimization', 3.5, ['FrugalGPT', 'RouteLLM', 'LLMLingua']),

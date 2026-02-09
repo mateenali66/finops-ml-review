@@ -80,7 +80,7 @@ insight_box = FancyBboxPatch((0.3, 0.3), 13.4, 0.8,
                               boxstyle="round,pad=0.02,rounding_size=0.1",
                               facecolor='#FFF3E0', edgecolor='#FF9800', linewidth=1.5)
 ax.add_patch(insight_box)
-ax.text(7, 0.7, 'Key Finding: 73% of LLM-FinOps papers published 2024-2025, indicating rapid but nascent field',
+ax.text(7, 0.7, 'Key Finding: 76% of LLM-FinOps papers published 2024-2025, indicating rapid but nascent field',
         ha='center', va='center', fontsize=9, fontweight='bold', color='#E65100')
 
 plt.tight_layout()

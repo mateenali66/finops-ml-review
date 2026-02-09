@@ -10,12 +10,12 @@ import numpy as np
 # Data based on literature review (2019-2025)
 years = ['2019', '2020', '2021', '2022', '2023', '2024', '2025']
 
-# Papers by category per year
-forecasting = [1, 2, 3, 4, 4, 3, 1]      # 18 total
-rl_autoscaling = [1, 1, 2, 3, 4, 3, 2]   # 16 total
-anomaly = [0, 2, 1, 2, 2, 2, 1]          # 10 total
-llm_finops = [0, 0, 0, 0, 3, 7, 5]       # 15 total (post-ChatGPT boom)
-other = [1, 1, 1, 2, 2, 3, 2]            # 12 total (general optimization)
+# Papers by category per year (primary technique assignment, no overlap)
+forecasting = [1, 2, 3, 4, 5, 4, 2]      # 21 total
+rl_autoscaling = [1, 1, 2, 3, 4, 3, 1]   # 15 total
+anomaly = [0, 2, 1, 2, 3, 3, 1]          # 12 total
+llm_finops = [0, 0, 0, 0, 4, 8, 5]       # 17 total (post-ChatGPT boom, 76% in 2024-25)
+other = [1, 1, 1, 1, 2, 2, 2]            # 10 total (rate optimization, architecture, etc.)
 
 # Set up the figure with professional styling
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5), dpi=300)
@@ -61,8 +61,8 @@ ax1.annotate('ChatGPT\nRelease', xy=(4, 15), xytext=(3.2, 19),
 
 # Right plot: Pie chart showing overall distribution
 totals = [sum(forecasting), sum(rl_autoscaling), sum(anomaly), sum(llm_finops), sum(other)]
-labels = ['Time Series\nForecasting\n(n=18)', 'RL\nAutoscaling\n(n=16)', 'Anomaly\nDetection\n(n=10)',
-          'LLM/GenAI\n(n=15)', 'Other\n(n=12)']
+labels = ['Time Series\nForecasting\n(n=21)', 'RL\nAutoscaling\n(n=15)', 'Anomaly\nDetection\n(n=12)',
+          'LLM/GenAI\n(n=17)', 'Other\n(n=10)']
 explode = (0, 0, 0, 0.1, 0)  # Highlight LLM as emerging
 
 wedges, texts, autotexts = ax2.pie(totals, explode=explode, labels=labels, autopct='%1.0f%%',
@@ -72,7 +72,7 @@ wedges, texts, autotexts = ax2.pie(totals, explode=explode, labels=labels, autop
                                    wedgeprops=dict(edgecolor='white', linewidth=2),
                                    textprops={'fontsize': 9})
 
-ax2.set_title('(b) Distribution of ML Techniques (n=71)', fontweight='bold', pad=10)
+ax2.set_title('(b) Distribution of ML Techniques (n=75)', fontweight='bold', pad=10)
 
 # Make percentage text bold
 for autotext in autotexts:

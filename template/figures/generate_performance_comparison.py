@@ -25,7 +25,7 @@ techniques_cost = [
     'FrugalGPT (LLM Cascade)'
 ]
 
-cost_reduction = [44, 40, 35, 32, 26, 25, 65, 98]  # percentages
+cost_reduction = [44, 40, 35, 19.9, 26, 25, 65, 98]  # percentages
 colors_cost = ['#4CAF50', '#4CAF50', '#4CAF50', '#4CAF50', '#4CAF50',
                '#2196F3', '#2196F3', '#9C27B0']
 
